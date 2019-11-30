@@ -17,5 +17,19 @@
 - Information Gain : base entropy - new entropy 인포메이션 겐이 가장 높은 걸로 다음 attribute(질문)
 
 #### Naive Bayes (나이브 베이즈 분류)
-: 
+: 베이즈안 정리를 이용하여 찾고자 하는 경우가 어떤 경우에 많이 일어나는지 확률적으로 예측하는 방법
   
+- Conditional Probability (조건부확률) : 어떠한 상황이 일어났을 때 그 상황 속에서 다른 상황이 일어날 확률
+- ex) 스팸메엘 분류 : free라는 단어가 들어가 있는 메일 중 스팸일 확률, free와 coupon이라는 단어가 들어가 있는 메일 중 스팸일 확률 비교 ...
+
+#### Linear regression (선형회귀)
+: 학습을 통해 선을 만들어 내고 그 선을 통해 새로운 데이터가 들어왔을 때 함수에 새로운 데이터의 변수를 대입하여 값을 예측
+
+- square errors : 그려진 선과 원래 결과값의 차이를 error라 하고 그 error를 제곱한 값
+  - 제곱을 쓰는 이유? 1. 눈으로 확인하기 쉬움 2. 에러가 작아도 값을 증폭시켜 큰 차이와 작은 차이 비교 쉬움 3. Gradient descent에서 제곱시에 계산 용이
+- mean square error : square errors 값들의 평균 (= cost function)
+- Least Mean Square (LMS) Error 를 찾아야함
+- converge될 때 = gradient 값이 대략 0이 될 때
+
+#### k-mean clustering
+: 
